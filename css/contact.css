@@ -1,0 +1,51 @@
+/* navbar */
+.weblogo{
+    width: 65px;
+ }
+ .navbar{
+    background: #00000082!important;
+ }
+ .navbar-nav li
+ {
+   padding: 0 10px;
+ }
+ .navbar-nav li a
+ {
+    color: #fff!important;
+    font-weight: 600;
+    font-size: 20px;
+ }
+ .moblogo{
+    display: none;
+ }
+ 
+ /*media */
+ @media(max-width:768px)
+ {
+    .img123{
+     width: 100%;
+     margin-top: 30px;
+   }
+ 
+   .weblogo{
+    display: none;
+   }
+   .moblogo{
+    display: block;
+   }
+   .navbar{
+    background: #fcb21c!important;
+ 
+   } 
+ }
+ .banner{
+   background: url(https://pn-paul.netlify.app/image/CONTACT-US.jpg);
+   width: 100%;
+   height: 650px;
+   background-position: center;
+   background-size: cover;
+ }
+ footer{
+    background: #111215;
+    height: 450px;
+ }

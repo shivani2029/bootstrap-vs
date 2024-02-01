@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .a{
+            background: black;
+            padding: 10px;
+
+        }
+        .weblogo{
+            width: 70px;
+        }
+        .moblogo{
+            display: none;
+        }
+        @media(max-width:768px)
+        {
+            .moblogo{
+                display: block;
+            }
+            .a{
+                background: yellow;
+            }
+            .weblogo{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <img src="https://pn-paul.netlify.app/image/ff-logo-02.png" class="weblogo"> 
+        <img src="https://pn-paul.netlify.app/image/logo-for-mobile.png" class="moblogo"> 
+    </div>
+</body>
+</html>
